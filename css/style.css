@@ -1,3 +1,108 @@
+/*1 частина*/
+.text-box > h3:first-child {
+  color: pink;
+}
+
+.text-box > div > p {
+  color: red;
+}
+
+.text-box p:nth-of-type(3) {
+  color: green;
+}
+
+.text-box > p#greycol {
+  color: grey;
+}
+
+.text-box > p.yellow {
+  color: yellow;
+}
+
+/*2 частина*/
+
+/* .head :hover{
+    color: black;
+    background-color: tomato;
+}
+.first-body :focus{
+    color: black;
+    background-color: purple;
+}
+.second-body :active{
+    color: black;
+    background-color: green;
+}
+.third-body :visited{
+    color: black;
+    background-color: violet;
+}
+.fourth-body {
+    color: black;
+    background-color: rgb(24, 83, 106);
+}
+.fifth-body{
+    color: black;
+    background-color: blue;
+}
+.six-body{
+    color: black;
+    background-color: blueviolet;
+}
+.seventh-body{
+    color: black;
+    background-color: red;
+}
+.eighth-body{
+    color: black;
+    background-color: orange;
+}
+.nine-body{
+    color: black;
+    background-color: yellow;
+} */
+/* Псевдоклассы состояния для ссылок */
+a:hover {
+    color: black;
+    background-color: tomato;
+}
+
+a:focus {
+    color: black;
+    background-color: purple;
+}
+
+a:active {
+    color: black;
+    background-color: green;
+}
+
+a:visited {
+    color: black;
+    background-color: violet;
+}
+
+/* Структурные псевдоклассы для ссылок */
+a:nth-child(odd) {
+    border: 2px solid orange;
+}
+
+a:nth-child(even) {
+    border: 2px solid blue;
+}
+
+a:first-child {
+    font-weight: bold;
+}
+
+a:last-child {
+    text-decoration: underline;
+}
+
+a:not(:last-child) {
+    margin-right: 10px;
+}
+
 .head{
     background-color: #ff0000;
 }
@@ -11,11 +116,20 @@
     background-color: green;
 }
 .fourth-body{
-    background-color: skyblue;
+    background-color: lightblue;
 }
 .fifth-body{
     background-color: blue;
 }
 .six-body{
     background-color: blueviolet;
+}
+.seventh-body{
+    background-color: red;
+}
+.eighth-body{
+    background-color: orange;
+}
+.nine-body{
+    background-color: rgb(19, 35, 98);
 }
