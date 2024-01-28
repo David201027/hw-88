@@ -20,7 +20,7 @@
 }
 
 /*2 Частина*/
-thead{
+thead :nth-child(1){
   background-color: tomato;
   color: white;
 }
