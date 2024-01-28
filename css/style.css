@@ -19,117 +19,56 @@
   color: yellow;
 }
 
-/*2 частина*/
-
-/* .head :hover{
-    color: black;
-    background-color: tomato;
+/*2 Частина*/
+thead{
+  background-color: tomato;
+  color: white;
 }
-.first-body :focus{
-    color: black;
-    background-color: purple;
+.body-1:nth-child(1) {
+background-color: lightblue;
 }
-.second-body :active{
-    color: black;
-    background-color: green;
+.body-2:nth-child(2) {
+background-color: lightpink;
 }
-.third-body :visited{
-    color: black;
-    background-color: violet;
+.body-3:nth-child(3) {
+background-color: violet;
 }
-.fourth-body {
-    color: black;
-    background-color: rgb(24, 83, 106);
+.body-4:nth-child(4) {
+background-color: green;
 }
-.fifth-body{
-    color: black;
-    background-color: blue;
-}
-.six-body{
-    color: black;
-    background-color: blueviolet;
-}
-.seventh-body{
-    color: black;
+thead :hover{
     background-color: red;
+    color: white;
 }
-.eighth-body{
-    color: black;
-    background-color: orange;
+.body-1 :hover{
+    background-color: blue;
+    color: white;
 }
-.nine-body{
-    color: black;
-    background-color: yellow;
+.body-2 :hover{
+    background-color: pink;
+    color: white;
+}
+.body-3 :hover{
+    background-color: blueviolet;
+    color: white;
+}
+.body-4 :hover{
+    background-color: turquoise;
+    color: white;
+}
+/* thead{
+    background-color: tomato;
+    color: white;
+}
+.body-1:nth-child(2) {
+  background-color: lightblue;
+}
+.body-2:nth-child(2) {
+  background-color: lightpink;
+}
+.body-3:nth-child(2) {
+  background-color: violet;
+}
+.body-4:nth-child(2) {
+  background-color: green;
 } */
-/* Псевдоклассы состояния для ссылок */
-a:hover {
-    color: black;
-    background-color: tomato;
-}
-
-a:focus {
-    color: black;
-    background-color: purple;
-}
-
-a:active {
-    color: black;
-    background-color: green;
-}
-
-a:visited {
-    color: black;
-    background-color: violet;
-}
-
-/* Структурные псевдоклассы для ссылок */
-a:nth-child(odd) {
-    border: 2px solid orange;
-}
-
-a:nth-child(even) {
-    border: 2px solid blue;
-}
-
-a:first-child {
-    font-weight: bold;
-}
-
-a:last-child {
-    text-decoration: underline;
-}
-
-a:not(:last-child) {
-    margin-right: 10px;
-}
-
-.head{
-    background-color: #ff0000;
-}
-.first-body{
-    background-color: orange;
-}
-.second-body{
-    background-color: yellow;
-}
-.third-body{
-    background-color: green;
-}
-.fourth-body{
-    background-color: lightblue;
-}
-.fifth-body{
-    background-color: blue;
-}
-.six-body{
-    background-color: blueviolet;
-}
-.seventh-body{
-    background-color: red;
-}
-.eighth-body{
-    background-color: orange;
-}
-.nine-body{
-    background-color: rgb(19, 35, 98);
-}
