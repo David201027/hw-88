@@ -20,39 +20,39 @@
 }
 
 /*2 Частина*/
-thead :nth-child(1){
+thead{
   background-color: tomato;
   color: white;
 }
 tbody :nth-child(1) {
-background-color: lightblue;
+  background-color: lightblue;
 }
-tbody:nth-child(2) {
-background-color: lightpink;
+tbody :nth-child(2) {
+  background-color: lightpink;
 }
-tbody:nth-child(3) {
-background-color: violet;
+tbody :nth-child(3) {
+  background-color: violet;
 }
-tbody:nth-child(4) {
-background-color: green;
+tbody :nth-child(4) {
+  background-color: green;
 }
 thead :hover{
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 }
-tbody:nth-child(1):hover{
-    background-color: blue;
-    color: white;
+tbody :nth-child(1):hover{
+  background-color: blue;
+  color: white;
 }
 tbody :nth-child(2):hover{
-    background-color: pink;
-    color: white;
+  background-color: pink;
+  color: white;
 }
 tbody :nth-child(3):hover{
-    background-color: blueviolet;
-    color: white;
-  }
-  tbody :nth-child(4):hover{
-    background-color: turquoise;
-    color: white;
+  background-color: blueviolet;
+  color: white;
+}
+tbody :nth-child(4):hover{
+  background-color: turquoise;
+  color: white;
 }
