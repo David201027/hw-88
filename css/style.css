@@ -56,19 +56,3 @@ tbody :nth-child(3):hover{
     background-color: turquoise;
     color: white;
 }
-/* thead{
-    background-color: tomato;
-    color: white;
-}
-.body-1:nth-child(2) {
-  background-color: lightblue;
-}
-.body-2:nth-child(2) {
-  background-color: lightpink;
-}
-.body-3:nth-child(2) {
-  background-color: violet;
-}
-.body-4:nth-child(2) {
-  background-color: green;
-} */
